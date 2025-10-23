@@ -1,15 +1,19 @@
 #include<stdio.h>
 int main(){
     int money;
-    printf("How much money do you have: ");
     scanf("%d",&money);
-    if(money>=300){
-        printf("birani khabo");
+    if(money>=5000){
+        printf("cox bajar jabo\n");
+        if(money>=10000){
+            printf("Sent martino jabo\n");
+        }
+        else{
+            printf("fire asbo\n");
+        }
     }
-    else if(money>=200){
-        printf("Copy kahbo bro");
-    }
-    else{
-        printf("Na vai khabo na taka poisa nai");
-    }
+     else{
+        printf("Jabo na kothao\n");
+       }
+    
+    return 0;
 }
