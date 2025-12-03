@@ -14,7 +14,7 @@ int main(){
     printf("Enter pin");
     scanf("%d",&pin);
     if(user_number==number && user_pin==pin){
-        printf("Login sucsesfull");
+        printf("Login sucsesfull\n");
         printf("press 1 for go to info:");
         int key;
         scanf("%d",&key);
